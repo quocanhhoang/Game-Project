@@ -25,11 +25,6 @@ int main() {
         }
     }
 
-    // sf::Texture SNOW_DIRT_01;
-    // if (!SNOW_DIRT_01.loadFromFile("assets/tilesets/snow_dirt_01.png")) {
-    //     std::cerr << "Failed to load ground texture" << std::endl;
-    // }
-
     loadTilesets(); // Load tileset một lần duy nhất trước vòng lặp
 
     sf::Clock clock;
